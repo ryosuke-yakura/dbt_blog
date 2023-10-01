@@ -1,0 +1,1 @@
+SELECT * FROM `blogdata-371814.analytics_346792782.events_20230929`;
