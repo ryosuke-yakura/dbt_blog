@@ -1,0 +1,11 @@
+my_bigquery_profile:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      methood: service_account_json
+      project: blogdata-371814
+      dataset: blogdata-371814.analytics_346792782.events_20231027
+      threads: 1
+      location: asia-northeast1
+
