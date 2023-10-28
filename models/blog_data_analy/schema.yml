@@ -5,13 +5,12 @@ models:
     - name: pv_count
       description: "A starter dbt model"
       columns:
-          - name: user_pesdo_id
+          - name: event_date
             description: "The primary key for this table"
             tests:
-                - unique
                 - not_null
 
-    - name: event_*
+    - name: page_pv
       description: "A starter dbt model"
       columns:
           - name: event_date
